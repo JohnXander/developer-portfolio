@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+}
+
+.main {
+    background-color: #4EB6AC;
+    border-top: 10px solid #1D313A;
+    border-bottom: 10px solid #1D313A;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.nav h3 {
+    color: #E5FFFF;
+    margin-left: 2rem;
+    font-size: 2rem;
+    font-weight: bolder;
+}
+
+.nav ul {
+    display: flex;
+}
+
+.nav ul li {
+    list-style-type: none;
+    margin-right: 2rem;
+}
+
+.nav ul li a {
+    text-decoration: none;
+    background-color: #E5FFFF;
+    color: #4EB6AC;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+}
+
+.intro {
+    width: 525px;
+    margin: 0 auto;
+    padding-bottom: 5rem;
+}
+
+.intro h1 {
+    font-size: 6rem;
+    color: #E5FFFF;
+    margin-bottom: 0;
+}
+
+.intro p {
+    margin-top: 3rem;
+    color: #E5FFFF;
+    line-height: 1.5rem;
+}
+
+.intro p span {
+    color: #1D313A;
+}
+
+.intro p em {
+    text-decoration: underline;
+    text-decoration-color: #1D313A;
+    color: inherit;
+}
+
+.about {
+    border-bottom: 10px solid #1D313A;
+}
+
+.about-container {
+    width: 525px;
+    margin: 0 auto;
+    padding-top: 2rem;
+    padding-bottom: 4rem;
+}
+
+.about-container h2 {
+    text-align: center;
+}
+
+.skills {
+    display: flex;
+    justify-content: space-between;
+}
+
+.skills ul {
+    margin-right: 9rem;
+}
+
+.portfolio {
+    border-bottom: 10px solid #1D313A;
+    padding-top: 2rem;
+    padding-bottom: 4rem;
+    background-color: #FFEBEE;
+}
+
+.portfolio h2 {
+    text-align: center;
+}
+
+.projects {
+    display: flex;
+    justify-content: space-between;
+    padding: 0rem 5rem;
+    flex-wrap: wrap;
+}
+
+.project {
+    background-color: #FBFFFC;
+    width: 300px;
+    padding: 2rem;
+    border: 8px solid #AE1457;
+    border-radius: 5px;
+    margin-top: 2rem;
+    box-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.1);
+}
+
+.project button {
+    background-color: #AE1457;
+    color: #FBFFFC;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    margin-top: 1rem;
+    margin-bottom: 0.75rem;
+    width: 100%;
+}
+
+.repoLink {
+    padding-left: 4rem;
+    color: #AE1457;
+}
+
+footer {
+    padding: 1.5rem;
+    background-color: #1D313A;
+    color: #E5FFFF;
+    font-style: 0.5rem;
+}
+
+footer i {
+    padding-right: 3px;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 600px) {
+    .about-container, .intro {
+        width: 450px;
+    }
+    .intro h1 {
+        font-size: 5rem;
+    }
+    .skills ul {
+        margin-right: 6rem;
+    }
+  }
+
+
