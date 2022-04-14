@@ -1,1 +1,1 @@
-# developer-portfolio
+# Static HTML/CSS Developer Portfolio
